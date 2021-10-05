@@ -16,3 +16,15 @@
       array = array.reshape(6,5)
    
       print(array, '\n')
+  
+  #Kotak Merah
+
+      array[0::5,3:5]
+
+  #Kotak Biru
+
+      array[2:4,:2]
+      
+  #Kota Hijau
+
+      array[:4,1:].diagonal()
